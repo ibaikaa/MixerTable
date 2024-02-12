@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FAE03E0B-278E-4B32-94F3-AE76B2DCE1AC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80834F3E-69DC-40C4-8371-1E9A8EB777A4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MixerTable/DiffableDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "init(_:data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "80834F3E-69DC-40C4-8371-1E9A8EB777A4 - 5bcee2cbbe9fd82b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MixerTable.DiffableDataSource.init(_: __C.UITableView, data: Swift.Array&lt;Swift.Int&gt;) -&gt; MixerTable.DiffableDataSource"
+                  moduleName = "MixerTable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adinemeziz/Desktop/Studying/SparrowCode_UIKit_Marathon/MixerTable/MixerTable/DiffableDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "80834F3E-69DC-40C4-8371-1E9A8EB777A4 - 4a5b97ab579c01f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UITableView, Foundation.IndexPath, Swift.Int) -&gt; Swift.Optional&lt;__C.UITableViewCell&gt; in MixerTable.DiffableDataSource.init(_: __C.UITableView, data: Swift.Array&lt;Swift.Int&gt;) -&gt; MixerTable.DiffableDataSource"
+                  moduleName = "MixerTable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adinemeziz/Desktop/Studying/SparrowCode_UIKit_Marathon/MixerTable/MixerTable/DiffableDataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9E761A1-84AB-45CC-9E4B-E061E64D3044"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MixerTable/DiffableDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "init(_:data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
