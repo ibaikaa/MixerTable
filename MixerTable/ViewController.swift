@@ -17,7 +17,7 @@ final class ViewController: UIViewController {
     // MARK: - UI-Components
     
     private lazy var tableView: UITableView = {
-        let tableView = UITableView(frame: .zero, style: .insetGrouped)
+        let tableView = UITableView(frame: view.bounds, style: .insetGrouped)
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: CELL_IDENTIFIER)
         tableView.delegate = self
         return tableView
@@ -46,8 +46,6 @@ final class ViewController: UIViewController {
         super.viewWillLayoutSubviews()
         
         view.addSubview(tableView)
-        
-        tableView.frame = view.bounds
     }
     
     // MARK: - Private methods
