@@ -57,12 +57,10 @@ final class ViewController: UIViewController {
     
     private func setupDataSource() {
         dataSource = DataSource(tableView: tableView) { [unowned self] tableView, indexPath, itemIdentifier in
-            let cell = tableView.dequeueReusableCell(withIdentifier: CELL_IDENTIFIER, for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: self.CELL_IDENTIFIER, for: indexPath)
             let isChecked = self.checkedNumbers.contains(itemIdentifier)
             
-            var configuration = cell.defaultContentConfiguration()
-            configuration.text = String(indexPath.row)
-            cell.contentConfiguration = configuration
+            cell.textLabel?.text = String(itemIdentifier)
             cell.accessoryType = isChecked ? .checkmark : .none
             
             return cell
@@ -97,9 +95,9 @@ extension ViewController: UITableViewDelegate {
         guard let cell = tableView.cellForRow(at: indexPath) else { return }
         
         let number = tableViewNumbers[indexPath.row]
-        let isNumberIselected = checkedNumbers.contains(number)
+        let isNumberSelected = checkedNumbers.contains(number)
         
-        if isNumberIselected {
+        if isNumberSelected {
             checkedNumbers.remove(tableViewNumbers[indexPath.row])
             cell.accessoryType = .none
         } else {
