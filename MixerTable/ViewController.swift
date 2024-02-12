@@ -63,6 +63,7 @@ final class ViewController: UIViewController {
             var configuration = cell.defaultContentConfiguration()
             configuration.text = String(indexPath.row)
             cell.contentConfiguration = configuration
+            cell.accessoryType = isChecked ? .checkmark : .none
             
             return cell
         }
